@@ -5,7 +5,7 @@
 }
 
 .header{
-    width: 100%;
+    width: 100% auto;
     height: 80px;
     display: block;
     color:black;
@@ -90,16 +90,12 @@ li:active {
     color:orange;
     text-decoration: none;
 }
-#projects { 
-    font-size: 10px;
-}
 .topofwebsite {
     background-image: url("websiteheader.png");
     background-repeat: no-repeat;
     background-color: rgba(255,255,255,0.7);
     background-blend-mode:lighten;
-    object-fit: fill;
-    position: absolute;
+    position: absolute auto;
     background-size: 100% 450px;
 }
 .introduction{
