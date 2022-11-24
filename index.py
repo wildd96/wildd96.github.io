@@ -8,9 +8,8 @@ import plotly.graph_objects as go
 
 #----------------Data------------------#
 
-cwd = "/Users/andrewwilder/Desktop/discovery_fall2022/streamlit_app/"
-df = pd.read_csv(cwd + 'historic_and_predicted.csv')
-sites = pd.read_csv(cwd + 'snotel_sites.csv')
+df = pd.read_csv('Data/historic_and_predicted.csv')
+sites = pd.read_csv('Data/snotel_sites.csv')
 
 x = sites['Latitude']
 y = sites['Longitude']
