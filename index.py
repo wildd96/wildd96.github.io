@@ -68,13 +68,3 @@ if choice == "Site List":
                          line=dict(color='firebrick', width=2)))
 
     st.plotly_chart(fig)
-
-    fig2 = go.FigureWidget([go.Scatter(x=x, y=y, mode='markers', hoverinfo = 'text')])
-
-    st.plotly_chart(fig2)
-
-if choice == "About":
-    pass
-
-if choice == "Download":
-    pass
