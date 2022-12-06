@@ -52,8 +52,7 @@ SNOTEL_dict = SNOTEL_dict = {
 with st.sidebar:
     st.image("https://svs.gsfc.nasa.gov/vis/a000000/a004100/a004171/jetstream_uk.0030.jpg")
     st.title("Predicting Precipitation in the Sierra Nevadas")
-    choice = st.radio("Navigation", ["Site List", "About", "Download"])
-
+    choice = st.radio("Navigation", ["Site List"]
 if choice == "Site List":
     st.title("Sites and predicted values")
     option = st.selectbox("Select SNOTEL site:",(SNOTEL_dict))
